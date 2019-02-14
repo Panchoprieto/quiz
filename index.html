@@ -8,35 +8,60 @@
 
 <body>
   <div class="header">
-    <div><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BuzzFeed.svg/1280px-BuzzFeed.svg.png"></div>
+    <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BuzzFeed.svg/1280px-BuzzFeed.svg.png">
     <div>News</div>
     <div>Videos</div>
     <div>Quizes</div>
     <div>Tasty</div>
     <input placeholder="Search">
   </div>
+
+  <div id="wording">
+    <h1><bold>Which controller are you?</bold></h1>
   </div>
-  <h1>Which Console Controller Would You Be?</h1>
-  <p id="caption">No bias at all. None. Definitely none at all. Not a Microsoft shill here.</p>
-  <img id="tomImg" src="http://th.downloadblog.it/jSwEBLI80OIF2oYywP73GVj3zCo=/fit-in/655xorig/http%3A%2F%2Fmedia.downloadblog.it%2F5%2F57d%2Ftom-di-myspace.jpg">
-  <a href="https://en.wikipedia.org/wiki/Tom_Anderson">Francisco Prieto</a>
-  <div id="tom">Buzzfeed Denier</div>
-  <img class="siliconValley" src="https://www.hbo.com/content/dam/hbodata/series/silicon-valley/episodes/s3/silicon-valley-3-3000x1688.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg">
-  <div class="questions">
-    <h2>Let's start with your Name</h2>
-    <input id="name" placeholder="Your Name">
-    <h2> In an adventure, would you rather gain power or a good story?</h2>
-    <input id="question1" placeholder="Power, The Story, I don't care as long as I have fun.">
-    <h2> You can save one but the rest will perish: Microsoft, Sony, or Nintendo</h2>
-    <input id="question2" placeholder="Microsoft, Sony, or Nintendo">
-    <h2>What is your favorite animal?</h2>
-    <input id="question3" placeholder="Mine is a Duck">
+  
+<img id="tomImg" src="https://c-sf.smule.com/sf/s51/arr/c7/b3/ecbd8f5b-9028-49da-a6f7-22a722e08551.jpg">
+  <a href="https://en.wikipedia.org/wiki/Xbox">Francisco Prieto</a>
+  <div id="tom">Francisco Prieto</div>
+  
+  <p id="caption">So you have decided to settle down and relax with one of the games you held off playing. Just one issue, which controller would you pick up? </p>
+  <p id="caption">This quiz will show which controller you just might choose.</p>
+
+  <div id="controllers">
+    <img src="https://www.jvfrance.com/wp-content/uploads/2016/03/pcps4xone-01-890x501.png" class="controller">
   </div>
+  
+  <div>
+    <h2 class="question">Let's start with your Name</h2>
+      <center><input id="name" placeholder="Enter Your Name Here"></center>
+
+    <h2 class="question">Choose one and the others will disappear, who do you save: Microsoft, Sony, or Valve?</h2>
+      <center><input id="question1" placeholder="Microsoft, Sony, or Valve"></center>
+
+
+    <h2 class="question">You find yourself going on an adventure, what do you look forward to the most: Gaining power, Making a good story, or would you just go with the flow?</h2>
+       <center><input id="question2" placeholder="Power, Story, or Flow"></center>
+
+    <h2 class="question">You're at a party and someone asks for your phone, would you hand off the phone: Only if you know them, Never, or to anyone that asks for it?</h2>
+      <center><input id="question3" placeholder="Friends, No one, Everyone"></center>
+
+  </div>
+
+  <h2 id="word" class="firstt"></h2>
+
   <div class="result">
-    <button>Click here to land your Console!</button>
+    <button id="clicker">Click here to find out your controller!</button>
   </div>
+
+<div>
+    <img id="ending" src="">
+</div>
+
+
+<div class="noise" id="suprise"></div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src='js/script.js'></script>
 </body>
 
 </html>
+

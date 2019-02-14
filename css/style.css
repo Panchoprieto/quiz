@@ -4,14 +4,17 @@
     color: #0f65ef;
     font-weight: bold;
     font-size:15px;
+    background-color: #FAE2FF;
+    padding: 20px;
 }
 
 .logo {
     width: 125px;
+    height: 25px;
 }
 
 body {
-    background-color: white;
+    background-color: #E2FFFD;
 }
 
 .siliconValley {
@@ -44,14 +47,24 @@ a {
 button {
     margin-top: 10px;
     color: white;
-    background-color: red;
+    background-color: blue;
     font-size: 40px;
     border-radius: 25px;
     border:3px groove black ;
     font-family: monospace;
+    padding: 10px;
 }
 
 body{
-
     margin-left:20px;
+}
+
+#controllers{
+    display: flex;
+    justify-content:center;
+}
+
+.controller{
+    border-radius: 100px;
+    border:solid black;
 }
