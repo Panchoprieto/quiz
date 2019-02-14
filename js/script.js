@@ -2,7 +2,7 @@
 $(document).ready(function() {
     $("#clicker").click(function() {
         var name = $("#name").val();
-        var finalAnswer = "Your starter pokemon is...";
+        var finalAnswer = "Your controller is...";
         var q1Result = $("#question1").val();
         var q2Result = $("#question2").val();
         var q3Result = $("#question3").val();
